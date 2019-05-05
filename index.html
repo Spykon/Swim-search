@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+        
+        <title>Swim &mdash; Your all-in-one booking app</title>
+    </head>
+
+    <body>
+
+        <div class="container">
+            <header class="header">
+                <img src="img/logo.png" alt="Logo Swim" class="logo">
+
+                <form action="#" class="search">
+                    <input type="text" class="search__input" placeholder="Search your Swimming Pool">
+                    <button class="search__button">
+                        <svg class="user-nav__icon">
+                            <use xlink:href="img/sprite.svg#icon-magnifier"></use>
+                        </svg>
+                    </button>
+                </form>
+
+                <nav class="user-nav">
+                    <div class="user-nav__icon-box">
+                        <svg class="user-nav__icon">
+                            <use xlink:href="img/sprite.svg#icon-bookmark"></use>
+                        </svg>
+                        <span class="user-nav__notification">8</span>
+                    </div>
+                    <div class="user-nav__icon-box">
+                        <svg class="user-nav__icon">
+                            <use xlink:href="img/sprite.svg#icon-comments"></use>
+                        </svg>
+                        <span class="user-nav__notification">16</span>
+                    </div>
+                    <div class="user-nav__user">
+                        <img src="img/Elvis.jpg" alt="Elvis" class="user-nav__user-photo">
+                        <span class="user-nav__user-name">Elvis Kondi</span>
+                    </div>
+                </nav>
+            </header>
+
+            <div class="content">
+                <main class="swim-view">
+                    <div class="gallery">
+                        <figure class="gallery__item">
+                            <img src="img/hotel-11.jpg" alt="hotel" class="gallery__photo">
+                        </figure>
+                        <figure class="gallery__item">
+                            <img src="img/hotel-22.jpg" alt="hotel" class="gallery__photo">
+                        </figure>
+                        <figure class="gallery__item">
+                            <img src="img/hotel-33.jpg" alt="hotel" class="gallery__photo">
+                        </figure>
+                    </div>
+
+                    <div class="overview">
+                        <h1 class="overview__heading">
+                            Swimming Pool
+                        </h1>
+                        <div class="overview__stars">
+                            <svg class="overview__icon-star">
+                                <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                            </svg>
+                            <svg class="overview__icon-star">
+                                <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                            </svg>
+                            <svg class="overview__icon-star">
+                                <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                            </svg>
+                            <svg class="overview__icon-star">
+                                <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                            </svg>
+                            <svg class="overview__icon-star">
+                                <use xlink:href="img/sprite.svg#icon-star-half"></use>
+                            </svg>
+                        </div>
+
+                        <div class="overview__location">
+                            <svg class="overview__icon-location">
+                                <use xlink:href="img/sprite.svg#icon-location"></use>
+                            </svg>
+                            <button class="btn-inline">Saranda, Albania</button>
+                        </div>
+
+                        <div class="overview__rating">
+                            <div class="overview__rating-average">9.2</div>
+                            <div class="overview__count">366 votes</div>
+                        </div>
+                    </div>
+                    
+                    <div class="detail">
+                        <div class="description">
+                            <h3 class="description__head">
+                                Swimming Pool Description
+                            </h3>
+                            <p class="paragraph">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, harum quidem dolorem laborum distinctio magni dolor a maxime labore! Expedita nostrum minima cum illo aliquam soluta vel laboriosam modi animi.
+                            </p>
+                            <p class="paragraph">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi, odio pariatur? Pariatur ducimus repudiandae ad dolores similique deleniti animi.
+                            </p>
+                            <h3 class="description__list">
+                                Swimming Pool Features
+                            </h3>
+                            <ul class="list">
+                                <li class="list__item">Close to the beach</li>
+                                <li class="list__item">Breakfast included</li>
+                                <li class="list__item">Free entry to sauna</li>
+                                <li class="list__item">Free parking avaible</li>
+                                <li class="list__item">Close to golf club</li>
+                                <li class="list__item">Perfect for relax</li>
+                            </ul>
+                            <div class="recommend">
+                                <p class="recommend__count">
+                                    Highly recommanded from people!
+                                </p>
+                                <div class="recommend__people">
+                                    <img src="img/user-3.jpg" alt="Friend 1" class="recommend__photo">
+                                    <img src="img/user-4.jpg" alt="Friend 2" class="recommend__photo">
+                                    <img src="img/user-5.jpg" alt="Friend 3" class="recommend__photo">
+                                    <img src="img/user-6.jpg" alt="Friend 4" class="recommend__photo">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- <div class="testimonials">
+                            <figure class="review">
+                                <blockquote class="review__text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi perferendis ex saepe velit esse distinctio.
+                                </blockquote>
+                                <figcaption class="review__user">
+                                    <img src="img/Elvis.jpg" alt="Testimonial 1" class="review__photo">
+                                    <div class="review__user-box">
+                                        <p class="review__user-name">Elvis Kondi</p>
+                                        <p class="review__user-date">03/05/2019</p>
+                                    </div>
+                                    <div class="review__rating">8.9</div>
+                                </figcaption>
+                            </figure>
+                            <figure class="review">
+                                <blockquote class="review__text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi perferendis ex saepe velit esse distinctio.
+                                </blockquote>
+                                <figcaption class="review__user">
+                                    <img src="img/user-2.jpg" alt="Testimonial 2" class="review__photo">
+                                    <div class="review__user-box">
+                                        <p class="review__user-name">Marisa Miller</p>
+                                        <p class="review__user-date">16/11/2018</p>
+                                    </div>
+                                    <div class="review__rating">9.1</div>
+                                </figcaption>
+                            </figure>
+                            <figure class="review">
+                                <blockquote class="review__text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi perferendis ex saepe velit esse distinctio.
+                                </blockquote>
+                                <figcaption class="review__user">
+                                    <img src="img/user-1.jpg" alt="Testimonial 3" class="review__photo">
+                                    <div class="review__user-box">
+                                        <p class="review__user-name">James Bond</p>
+                                        <p class="review__user-date">11/01/2019</p>
+                                    </div>
+                                    <div class="review__rating">9.6</div>
+                                </figcaption>
+                            </figure>
+                        </div> -->
+
+                        <div class="testimonials">
+                            <figure class="review">
+                                <div class="review__user-box">
+                                    <p class="review__user-name">Elvis Kondi</p>
+                                    <p class="review__user-date">03/05/2019</p>
+                                </div>
+                                <figcaption class="review__user">
+                                    <img src="img/Elvis.jpg" alt="Testimonial 1" class="review__photo">
+                                    <blockquote class="review__text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi perferendis ex saepe velit esse distinctio.
+                                    </blockquote>
+                                </figcaption>
+                                <!-- <div class="review__rating">8.9</div> -->
+                            </figure>
+                            <figure class="review">
+                                <div class="review__user-box">
+                                    <p class="review__user-name">Marisa Miller</p>
+                                    <p class="review__user-date">16/11/2018</p>
+                                </div>
+                                <figcaption class="review__user">
+                                    <img src="img/user-2.jpg" alt="Testimonial 2" class="review__photo">
+                                    <blockquote class="review__text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi perferendis ex saepe velit esse distinctio.
+                                    </blockquote>
+                                </figcaption>
+                                <!-- <div class="review__rating">9.1</div> -->
+                            </figure>
+                            <figure class="review">
+                                <div class="review__user-box">
+                                    <p class="review__user-name">James Bond</p>
+                                    <p class="review__user-date">11/01/2019</p>
+                                </div>
+                                <figcaption class="review__user">
+                                    <img src="img/user-1.jpg" alt="Testimonial 3" class="review__photo">
+                                    <blockquote class="review__text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi perferendis ex saepe velit esse distinctio.
+                                    </blockquote>
+                                </figcaption>
+                                <!-- <div class="review__rating">9.6</div> -->
+                            </figure>
+                            <figure class="review">
+                                <div class="review__user-box">
+                                    <p class="review__user-name">Sara Repetti</p>
+                                    <p class="review__user-date">08/04/2019</p>
+                                </div>
+                                <figcaption class="review__user">
+                                    <img src="img/Sara.jpg" alt="Testimonial 4" class="review__photo">
+                                    <blockquote class="review__text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi perferendis ex saepe velit esse distinctio.
+                                    </blockquote>
+                                </figcaption>
+                                <!-- <div class="review__rating">9.3</div> -->
+                            </figure>
+                        </div>
+                    </div>
+
+                    <div class="cta">
+                        <h2 class="cta__book">
+                            Book now your special holiday on our Swimming Pool!
+                        </h2>
+                        <button class="btn">
+                            <span class="btn__visible">Book Now!</span>
+                            <span class="btn__hidden">Last 3 spots!</span>
+                        </button>
+                    </div>
+                </main>
+
+                <nav class="sidebar">
+                    <ul class="side-nav">
+                        <li class="side-nav__item  side-nav__item--active">
+                            <a href="#" class="side-nav__link">
+                                <svg class="side-nav__icon">
+                                    <use xlink:href="img/sprite.svg#icon-home3"></use>
+                                </svg>
+                                <span>Home</span>
+                            </a>
+                        </li>
+                        <li class="side-nav__item">
+                            <a href="#" class="side-nav__link">
+                                <svg class="side-nav__icon">
+                                    <use xlink:href="img/sprite.svg#icon-ticket"></use>
+                                </svg>
+                                <span>Swim Plans</span>
+                            </a>
+                        </li>
+                        <li class="side-nav__item">
+                            <a href="#" class="side-nav__link">
+                                <svg class="side-nav__icon">
+                                    <use xlink:href="img/sprite.svg#icon-direction"></use>
+                                </svg>
+                                <span>Locations</span>
+                            </a>
+                        </li>
+                        <li class="side-nav__item">
+                            <a href="#" class="side-nav__link">
+                                <svg class="side-nav__icon">
+                                    <use xlink:href="img/sprite.svg#icon-info"></use>
+                                </svg>
+                                <span>About Us</span>
+                            </a>
+                        </li>
+                        <li class="side-nav__item">
+                            <a href="#" class="side-nav__link">
+                                <svg class="side-nav__icon">
+                                    <use xlink:href="img/sprite.svg#icon-phone"></use>
+                                </svg>
+                                <span>Contacts</span>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <ul class="social">
+                        <li class="social__item">
+                            <a href="#" class="social__link">
+                                <svg class="social__icon social__icon-1">
+                                    <use xlink:href="img/sprite.svg#icon-facebook2"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="#" class="social__link">
+                                <svg class="social__icon social__icon-2">
+                                    <use xlink:href="img/sprite.svg#icon-youtube"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="#" class="social__link">
+                                <svg class="social__icon social__icon-3">
+                                    <use xlink:href="img/sprite.svg#icon-twitter"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="#" class="social__link">
+                                <svg class="social__icon social__icon-4">
+                                    <use xlink:href="img/sprite.svg#icon-telegram"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div class="legal">
+                        Made with &#x2764; by Elvis Kondi for Swim SpA. All rights reserved &copy; 2019.
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+    </body>
+
+</html>

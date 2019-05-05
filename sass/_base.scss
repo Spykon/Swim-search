@@ -1,0 +1,71 @@
+
+:root {
+    --col-pri: #638CFF;
+    --col-pri-light: #639DFF;
+    --col-pri-dark: #0B3254;
+    --col-sec-dark: #265AE8;
+
+    --col-gl-1: #faf9f9;
+    --col-gl-2: #f4f2f2;
+    --col-gl-3: #f0eeee;
+    --col-gl-4: #ccc;
+ 
+    --col-gd-1: #333;
+    --col-gd-2: #777;
+    --col-gd-3: #999;
+
+    --shadow-light: 0 1rem 2rem rgba(255, 255, 255, 0.75);
+    --shadow-dark: 0 1rem 2rem rgba(0, 0, 0, 0.3);
+
+    --line: 1px solid var(--col-pri-light);
+}
+
+$bp-largest: 75em;      //1200px
+$bp-large: 62.5em;      //1000px, 1000:16=62.5
+$bp-medium: 56.25em;    //900px
+$bp-small: 37.5em;      //600px
+$bp-smallest: 31.25em;   //500px
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; //1rem=10px, 10/16=62.5%
+    
+    @media only screen and (max-width: $bp-largest) {
+        font-size: 56%;
+    }
+
+    @media only screen and (max-width: $bp-large) {
+        font-size: 52%;
+    }
+
+    @media only screen and (max-width: $bp-medium) {
+        font-size: 50%;
+    }
+
+    @media only screen and (max-width: $bp-small) {
+        font-size: 54%;
+    }
+}
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+    color: var(--col-pri-dark);
+    font-weight: 400;
+    line-height: 1.6;
+    background-image: linear-gradient(to right bottom, var(--col-pri-light), var(--col-pri-dark));
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    min-height: 100vh;
+}
